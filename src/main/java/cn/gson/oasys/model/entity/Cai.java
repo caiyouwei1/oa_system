@@ -6,6 +6,15 @@ public class Cai {
     private String name;
 
     private int age;
+    private double money;
+
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
 
     public Cai() {
     }
